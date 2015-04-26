@@ -40,7 +40,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Bacon!!!");
+                    API.sendChat("/me Bacon!!! Feeeeed me!");
                 }
             }
         };
@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Traqq-Queen",
+        botName: "Traqq-Bot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -89,7 +89,7 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
         motd: "Chillax c'mon have some fun its TRAQQY!",
         filterChat: true,
