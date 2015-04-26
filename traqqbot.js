@@ -1,9 +1,3 @@
-/**
- *Copyright 2014 Yemasthui
- *Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
- *This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
- */
-
 
 (function () {
 
@@ -54,7 +48,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://raw.githubusercontent.com/FrozenOG/Bot1/master/en.json", function (json) {
+        $.get("https://rawgit.com/Yemasthui/basicBot/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -184,7 +178,8 @@
         name: "Traqq-Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
-        chatLink: "https://raw.githubusercontent.com/FrozenOG/Bot1/master/en.json",
+        cmdLink: "http://git.io/245Ppg",
+        chatLink: "https://rawgit.com/FrozenOG/Bot1/master/en.json"
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -192,7 +187,7 @@
         settings: {
             botName: "Traqq-Bot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/FrozenOG/Bot1/master/en.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
@@ -3135,7 +3130,6 @@
                              indexMuted = i;
                              wasMuted = true;
                              }
-
                              }
                              if (!wasMuted) return API.sendChat(subChat(basicBot.chat.notmuted, {name: chat.un}));
                              basicBot.room.mutedUsers.splice(indexMuted);
@@ -3375,3 +3369,5 @@
 
     loadChat(basicBot.startup);
 }).call(this);
+Status API Training Shop Blog About
+© 2015 GitHub, Inc. Terms Privacy Security Contact
