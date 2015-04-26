@@ -3369,5 +3369,3 @@
 
     loadChat(basicBot.startup);
 }).call(this);
-Status API Training Shop Blog About
-© 2015 GitHub, Inc. Terms Privacy Security Contact
