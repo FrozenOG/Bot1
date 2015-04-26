@@ -59,7 +59,7 @@
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/FrozenOG/Bot1/master/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -95,8 +95,8 @@
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: null,
-        rulesLink: null,
+        opLink: https://docs.google.com/document/d/1G-nF-9lAodjOEA1u8w39KIWhmyR2vN6C3v4-8ePdv-w/edit,
+        rulesLink: https://docs.google.com/document/d/1LlrBS2A28x0MDtRuzSuWNUymWBXTdpfQTDYbEXoJPMQ/edit,
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
